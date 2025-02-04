@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/all.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+  <!-- Start header -->
+  <div class="header container bg-dark text-center text-light rounded p-3 my-2 d-flex align-items-baseline">
+    <h1>Product Store </h1>
+    <!-- Button to view cart -->
+    <a href="cart.html" onclick="displaycart()" class="btn btn-success mt-3" id= "view-cart">View Cart <i class="fa-solid fa-cart-shopping"></i></a>
+  </div>
+  <!-- End header -->
+
+  <!-- Start search bar -->
+  <div class="container bg-dark text-center text-light rounded p-3 my-2">
+    <input type="search" id="searchProduct" class="form-control search-bar w-50 m-auto p-3" placeholder="Search for products...">
+  </div>
+
+  <div id="products-container" class="container bg-dark rounded p-3 my-2 d-flex flex-wrap">
+    <div class="row">
+    </div>
+  </div>
+  <!-- End search bar -->
+
+<script src="js - main.js"></script>
+</body>
+</html>
